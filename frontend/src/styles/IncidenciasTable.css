@@ -1,0 +1,77 @@
+.incidencias-container {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px;
+    margin: 40px auto;
+    max-width: 1200px;
+  }
+  
+  .incidencias-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .incidencias-table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .incidencias-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    background-color: #fafafa;
+  }
+  
+  .incidencias-table th,
+  .incidencias-table td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .incidencias-table th {
+    background-color: #0a66c2;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .incidencias-table tr:hover {
+    background-color: #f5f7fa;
+  }
+  
+  .estado-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+  }
+  
+  .estado-badge.pendiente {
+    background-color: #f39c12;
+  }
+  
+  .estado-badge.en_proceso {
+    background-color: #2980b9;
+  }
+  
+  .estado-badge.resuelto {
+    background-color: #27ae60;
+  }
+  
+  .incidencias-loading,
+  .incidencias-error {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 40px;
+    color: #666;
+  }
+  
